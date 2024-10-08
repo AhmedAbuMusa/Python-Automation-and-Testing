@@ -9,4 +9,4 @@ driver = webdriver.Edge();
 
 driver.get("https://www.python.org");
 
-select = Select(By.LINK_TEXT);
+select = Select();
